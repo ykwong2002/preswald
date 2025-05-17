@@ -7,8 +7,8 @@ entrypoint = "hello.py"
 
 [branding]
 name = "Preswald Project"
-logo = "images/logo.png"
-favicon = "images/favicon.ico"
+logo = "images/newLogo.png"
+favicon = "images/newLogo.png"
 primaryColor = "#F89613"
 
 [spotify]
