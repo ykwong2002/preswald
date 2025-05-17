@@ -1,5 +1,5 @@
 [project]
-title = "QuakeScope: Exploring Global Seismic Activity"
+title = "Spotify Analysis"
 version = "0.1.0"
 port = 8501
 slug = "preswald-project"  
@@ -7,12 +7,13 @@ entrypoint = "hello.py"
 
 [branding]
 name = "Preswald Project"
+logo = "images/logo.png"
 favicon = "images/logo.png"
 primaryColor = "#F89613"
 
-[earthquakes]
+[spotify]
 type = "csv"
-path = "data/database.csv"
+path = "data/Spotify.csv"
 
 [logging]
 level = "INFO"  
