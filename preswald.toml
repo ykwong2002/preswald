@@ -1,5 +1,5 @@
 [project]
-title = "Spotify Analysis"
+title = "Preswald Project"
 version = "0.1.0"
 port = 8501
 slug = "preswald-project"  
@@ -8,7 +8,7 @@ entrypoint = "hello.py"
 [branding]
 name = "Preswald Project"
 logo = "images/logo.png"
-favicon = "images/logo.png"
+favicon = "images/favicon.ico"
 primaryColor = "#F89613"
 
 [spotify]
