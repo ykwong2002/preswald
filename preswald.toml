@@ -1,0 +1,19 @@
+[project]
+title = "QuakeScope: Exploring Global Seismic Activity"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+favicon = "images/logo.png"
+primaryColor = "#F89613"
+
+[earthquakes]
+type = "csv"
+path = "data/database.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
